@@ -1,4 +1,6 @@
 Yara rules for finding interesting files etc ... 
+Rule for detecting AWS Access key on system. Can be used with `Linux.Search.FileFinder` and `Windows.Search.FileFinder` velociraptor artifacts. 
+
 ```
 rule Possible_AWS_AccessKeyId
 {
