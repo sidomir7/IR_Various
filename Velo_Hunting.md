@@ -1,8 +1,11 @@
-1. label all computers 
-2. Run `Windows.Forensics.PersistenceSniper` artifact on windows.
-3. Analyze Persistence Sniper output.
-4. Create IOCs and hunt on all machines.
-5. Check all users on all machines.
+1. Run if not alredy included `Server.Import.Extras`
+2. Label all computers 
+3. Run `Windows.Forensics.PersistenceSniper` artifact on windows.
+4. Analyze Persistence Sniper output.
+5. Create IOCs and hunt on all machines.
+6. Check all users on all machines.
+7. Run `Windows.Forensics.Prefetch` and `Windows.Timeline.Prefetch`
+   
 
 
 Example how to parse OSPath
