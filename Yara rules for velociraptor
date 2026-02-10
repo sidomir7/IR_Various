@@ -12,5 +12,4 @@ rule Possible_AWS_AccessKeyId
   condition:
     $aws_key
 }
-
 ```
